@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Necessary Style Sheets -->
-        <script src="/endpoints/user_auth.js"></script>
+        <script src="/endpoints/endpoints.js"></script>
         <link rel="stylesheet" href="/components/create_account_mobile/create_account_mobile.css">
         <link rel="stylesheet" href="/components/sign_in_mobile/sign_in_mobile.css">
         <link rel="stylesheet" href="/components/user_auth_desktop/user_auth_desktop.css">

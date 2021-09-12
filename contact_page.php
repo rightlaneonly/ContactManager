@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="/endpoints/contact_page.js"></script>
+    <script src="/endpoints/endpoints.js"></script>
     <link rel="stylesheet" href="/components/contact_card/contact_card_styles.css">
     <link rel="stylesheet" href="/components/edit_contact/edit_contact_styles.css">
     <link rel="stylesheet" href="./pages/contact_page/styles.css">
