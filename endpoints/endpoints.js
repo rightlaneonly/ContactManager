@@ -44,6 +44,22 @@
 // 	// Any aditional actions that need to happen after the process is complete: 
 	
 // }
+
+var url = "http://localhost:8000/";
+//    Sign In UI -> Create Account UI
+function needAccount()
+{
+    console.log(url + "signup_page.php");
+    document.location = url + "signup_page.php";
+    
+}
+//    Create Account UI -> Sign In UI
+function hasAccount()
+{
+    document.location = url + "login_page.php";
+}
+// Allows the User to Log into their account 
+
 function searchContacts()
 {
 
