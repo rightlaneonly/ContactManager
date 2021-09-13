@@ -13,6 +13,10 @@
         <title>Welcome to Contact Manager</title>
     </head>
     <body>
+    <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  This is an alert box.
+</div>
          <!-- Desktop user authentication UI breakpoint at 750px -->
          <div id="auth-desktop">
         <div id="content">
@@ -82,7 +86,7 @@
             <label for="number">Phone Number</label>
             <input id="number" type="text" value="" placeholder="555-555-5555" name="number">
           </div>
-            <button id="sign-up-mobile"> Sign Up </button>
+            <button id="sign-up-mobile" onclick="doSignUp('mobile')"> Sign Up </button>
             <text> Have an account? <button onclick="hasAccount()"> Sign In now</button> </text>
 </div>  
 </div>

@@ -13,6 +13,10 @@
         <title>Welcome to Contact Manager</title>
     </head>
     <body>
+    <div class="alert">
+      <text id="alert-text"> This is an alert box </text>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">x</span>
+  </div>
         <!-- Desktop user authentication UI breakpoint at 750px -->
         <div id="auth-desktop">
         <div id="content">
@@ -21,6 +25,7 @@
         <div id="card-sign-in">
        
             <text class="header"> Sign In</text>
+            <text class="text-alert-sign-in"> Cannot find account with these credentials</text>
             <div class="form">
                 <label for="username-desktop">Email</label>
                 <input id="username-desktop" type="text" value="" placeholder="email@domain.com" name="email">
@@ -29,6 +34,7 @@
                 <label for="password">Password</label>
                 <input id="password-desktop" type="text" value="" placeholder="Password" name="name">
               </div>
+              
               <div id="sign-in-btns">
                 <button id="sign-in" onclick='doLogin("desktop")'> Sign In </button>
                 <a style="font-size: smaller"> Forgot Password? </a> </text>
@@ -69,8 +75,10 @@
             <button onclick="needAccount()"></button>
         <div id="auth" onclick="needAccount()">
         <div id="card-sign-in-mobile">
-       
+       <div id = "alrert">
+</div>
        <text class="header"> Sign In</text>
+       <text class="text-alert-sign-in"> Cannot find account with these credentials</text>
        <div class="form">
            <label for="username">Username</label>
            <input id="username-mobile" type="text" value="" placeholder="insert your username" name="username">
@@ -113,7 +121,6 @@
             
     </div>
 </div>
-
 </div>
 
        

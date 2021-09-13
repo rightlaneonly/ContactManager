@@ -10,7 +10,49 @@ body
     background-size: cover;
     height: 100%;
 }
-
+.text-alert-sign-in
+{
+    display: none;
+    font-weight: bold;
+    color: #c1564e;
+    font-size: 100%;
+    word-wrap: break-word;
+    text-align: center;
+}
+/* The alert message box */
+.alert {
+    display:none;
+    grid-template-columns: 90% 10%;
+    align-items: center;
+    column-gap: 0px;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    height: 20px;
+    padding: 20px;
+    background-color:#c1564ecc;
+    color: white;
+    margin-bottom: 15px;
+  }
+  #alert-text
+  {
+      font-weight: bold;
+  }
+  /* The close button */
+  .closebtn {
+    margin-right: 30px;
+    text-align: center;
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
 #content
 {
     display: grid;

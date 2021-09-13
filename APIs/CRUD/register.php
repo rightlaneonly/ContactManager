@@ -1,5 +1,5 @@
 <?php
-	include './util.php';
+	include 'util.php';
 
 	$inData = getRequestInfo();
 	checkUser($inData["Login"], $inData["Password"], $inData["FirstName"], $inData["LastName"]);
