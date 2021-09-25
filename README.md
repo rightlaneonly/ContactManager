@@ -1,6 +1,6 @@
 # ContactManager
 ## Team Members and Roles
-Project Manager
+Project Manager: Nicolas El Tenn
 
 Front End 
 
